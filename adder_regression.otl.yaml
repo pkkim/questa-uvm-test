@@ -10,58 +10,58 @@
   rule_args:
     cmds:
       - sleep 10
-      - print "done"
+      - echo "done"
 - name: run_testbench_02
   rule: raw_bash
   rule_args:
     cmds:
       - sleep 20
-      - print "done"
+      - echo "done"
 - name: run_testbench_03
   rule: raw_bash
   rule_args:
     cmds:
       - sleep 30
-      - print "done"
+      - echo "done"
 - name: run_testbench_04
   rule: raw_bash
   rule_args:
     cmds:
       - sleep 40
-      - print "done"
+      - echo "done"
 - name: run_testbench_05
   rule: raw_bash
   rule_args:
     cmds:
       - sleep 50
-      - print "done"
+      - echo "done"
 - name: run_testbench_06
   rule: raw_bash
   rule_args:
     cmds:
       - sleep 60
-      - print "done"
+      - echo "done"
 - name: run_testbench_07
   rule: raw_bash
   rule_args:
     cmds:
       - sleep 70
-      - print "done"
+      - echo "done"
 - name: run_testbench_08
   rule: raw_bash
   rule_args:
     cmds:
       - sleep 80
-      - print "done"
+      - echo "done"
 - name: run_testbench_09
   rule: raw_bash
   rule_args:
     cmds:
       - sleep 90
-      - print "done"
+      - echo "done"
 - name: run_testbench_10
   rule: raw_bash
   rule_args:
     cmds:
       - sleep 100
-      - print "done"
+      - echo "done"
