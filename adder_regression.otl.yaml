@@ -1,5 +1,67 @@
-- name: test_regression
+- name: run_testbench_00
   rule: raw_bash
   rule_args:
     cmds:
       - qrun -batch -access=rw+/. -uvmhome uvm-1.2 '-timescale' '1ns/1ns' -mfcu testbench.sv '-voptargs=+acc=npr'  -do  " run -all; exit"  
+
+# for a screenshot only
+- name: run_testbench_01
+  rule: raw_bash
+  rule_args:
+    cmds:
+      - sleep 10
+      - print "done"
+- name: run_testbench_02
+  rule: raw_bash
+  rule_args:
+    cmds:
+      - sleep 20
+      - print "done"
+- name: run_testbench_03
+  rule: raw_bash
+  rule_args:
+    cmds:
+      - sleep 30
+      - print "done"
+- name: run_testbench_04
+  rule: raw_bash
+  rule_args:
+    cmds:
+      - sleep 40
+      - print "done"
+- name: run_testbench_05
+  rule: raw_bash
+  rule_args:
+    cmds:
+      - sleep 50
+      - print "done"
+- name: run_testbench_06
+  rule: raw_bash
+  rule_args:
+    cmds:
+      - sleep 60
+      - print "done"
+- name: run_testbench_07
+  rule: raw_bash
+  rule_args:
+    cmds:
+      - sleep 70
+      - print "done"
+- name: run_testbench_08
+  rule: raw_bash
+  rule_args:
+    cmds:
+      - sleep 80
+      - print "done"
+- name: run_testbench_09
+  rule: raw_bash
+  rule_args:
+    cmds:
+      - sleep 90
+      - print "done"
+- name: run_testbench_10
+  rule: raw_bash
+  rule_args:
+    cmds:
+      - sleep 100
+      - print "done"
