@@ -1,0 +1,5 @@
+- name: test_regression
+  rule: raw_bash
+  rule_args:
+    cmds:
+      - qrun -batch -access=rw+/. -uvmhome uvm-1.2 '-timescale' '1ns/1ns' -mfcu testbench.sv '-voptargs=+acc=npr'  -do  " run -all; exit"  
